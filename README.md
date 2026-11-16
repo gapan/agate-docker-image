@@ -1,6 +1,10 @@
+# About
+
 This repo includes the necessary files to create a docker images for
 [agate](https://github.com/mbrubeck/agate), the
 [Gemini protocol](https://geminiprotocol.net/) server.
+
+# Run
 
 The docker images created with this repo are pushed on
 [dockerhub](https://hub.docker.com/r/vlahavas/agate)
@@ -15,6 +19,11 @@ for the latest tag, or for a specific version, for example 3.3.25, run:
 ```
 docker pull vlahavas/agate:3.3.25
 ```
+
+In order to run it, you have to specify the `AGATE_HOSTNAME` environment
+variable, pointing to the hostname that you will use for your agate server.
+
+# Build
 
 To create the docker image locally, run:
 
