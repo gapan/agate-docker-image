@@ -3,7 +3,7 @@ This repo includes the necessary files to create a docker images for
 [Gemini protocol](https://geminiprotocol.net/) server.
 
 The docker images created with this repo are pushed on
-[dockerhub](https://hub.docker.com/repository/docker/vlahavas/agate/general)
+[dockerhub](https://hub.docker.com/r/vlahavas/agate)
 and you pull them with:
 
 ```
