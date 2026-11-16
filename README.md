@@ -2,7 +2,7 @@ This repo includes the necessary files to create a docker images for
 [agate](https://github.com/mbrubeck/agate), the
 [Gemini protocol](https://geminiprotocol.net/) server.
 
-The docker images created with this repo are push on
+The docker images created with this repo are pushed on
 [dockerhub](https://hub.docker.com/repository/docker/vlahavas/agate/general)
 and you pull them with:
 
